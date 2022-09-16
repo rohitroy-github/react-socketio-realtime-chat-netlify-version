@@ -72,6 +72,10 @@ html, body {
     height: 100%;
   }
 
+  .heading{
+    font-size: 2em;
+  }
+
   .joinInnerContainer {
     width: 90%;
   }

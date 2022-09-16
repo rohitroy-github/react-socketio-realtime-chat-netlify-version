@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 .infoBar {
   display: flex;
   align-items: center;
@@ -6,6 +8,7 @@
   border-radius: 4px 4px 0 0;
   height: 60px;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .leftInnerContainer {

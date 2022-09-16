@@ -1,3 +1,5 @@
+//Blue bar code
+
 import React from 'react';
 
 import onlineIcon from '../../icons/onlineIcon.png';
