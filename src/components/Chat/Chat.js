@@ -33,7 +33,11 @@ const Chat = ({ location }) => {
         alert(error);
       }
     });
-  }, [ENDPOINT, location.search]);
+
+  //Removing for Netlify dependency error ! 
+  // }, [ENDPOINT, location.search]);
+}, [location.search]);
+
   
   useEffect(() => {
     socket.on('message', message => {
