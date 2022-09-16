@@ -60,6 +60,7 @@ const Chat = ({ location }) => {
   return (
     <div className="outerContainer">
       <div className="container">
+      <h1 className="heading">Join Chat Room</h1>
           <InfoBar room={room} />
           <Messages messages={messages} name={name} />
           <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />

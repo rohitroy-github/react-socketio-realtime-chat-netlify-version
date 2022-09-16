@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 html, body {
   font-family: 'Roboto', sans-serif;
   padding: 0;
@@ -16,26 +18,35 @@ html, body {
   display: flex;
   justify-content: center;
   text-align: center;
+
+  /* Full height of page */
   height: 100vh;
+  
   align-items: center;
   background-color: #1A1A1D;
 }
 
 .joinInnerContainer {
-  width: 20%;
+  width: 30%;
+  margin: auto;
 }
 
 .joinInput {
   border-radius: 0;
   padding: 15px 20px;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bold;
 }
 
 .heading {
   color: white;
   font-size: 2.5em;
+  font-weight: bold;
   padding-bottom: 10px;
   border-bottom: 2px solid white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .button {
@@ -48,6 +59,8 @@ html, body {
     display: inline-block;
     border: none;
     width: 100%;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mt-20 {
