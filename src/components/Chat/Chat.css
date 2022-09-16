@@ -8,11 +8,12 @@
   background-color: #1A1A1D;
 }
 
-/* .innerContainer {
-  width: 30%;
+.innerContainer {
+  width: auto;
   display: flex;
+  flex-direction: column;
   margin: auto;
-} */
+}
 
 .container {
   display: flex;
@@ -35,7 +36,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .outerContainer {
-    height: 100%;
+    height:100%;
     padding: 15px;
   }
 

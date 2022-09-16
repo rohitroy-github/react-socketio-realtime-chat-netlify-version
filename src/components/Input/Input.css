@@ -23,7 +23,7 @@ input:focus, textarea:focus, select:focus{
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #2979FF;
+  background-image: linear-gradient(to right, #ec1ae6, #c82bea, #a036eb, #713eea, #2642e6);
   padding: 20px;
   display: inline-block;
   border: none;
